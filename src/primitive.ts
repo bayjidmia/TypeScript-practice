@@ -14,3 +14,4 @@ x = "Hello";
 x = true;
 x = null;
 x = undefined;
+console.log(x);
