@@ -7,3 +7,15 @@ function add(a: number, b: number) {
 
 const odd = add(11, 2);
 console.log(odd);
+
+// method function
+const person = {
+  name: "jhon",
+  age: 30,
+  balance: 0,
+  addBalance(amount: number): number {
+    const totalbalance = this.balance + amount;
+    return totalbalance;
+  },
+};
+console.log(person.addBalance(10010));
