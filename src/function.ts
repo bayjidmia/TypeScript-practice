@@ -19,3 +19,9 @@ const person = {
   },
 };
 console.log(person.addBalance(10010));
+
+// callback function
+
+const arr: number[] = [1, 2, 3, 4, 6];
+const newarr = arr.map((element: number): number => element * 2);
+console.log(newarr);
