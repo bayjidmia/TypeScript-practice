@@ -19,3 +19,12 @@ const object2 = {
 
 const newobj = { ...object1, ...object2 };
 console.log(newobj);
+
+// rest operator
+const nominatino = (...names: string[]) => {
+  names.map((name) => {
+    console.log(name);
+  });
+};
+
+nominatino("jhon", "doe", "smith");
