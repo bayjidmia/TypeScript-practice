@@ -17,11 +17,15 @@ console.log(ourTuple);
 // reference type : object
 
 let user: {
+  organization: "tech crop"; //  literal type
   firstname: string;
   middlename?: string; // optional type
   lastname: string;
 } = {
+  organization: "tech crop",
   firstname: "jhon",
-  //   middlename: "doe",
+  middlename: "doe",
   lastname: "smith",
 };
+
+console.log(user);
