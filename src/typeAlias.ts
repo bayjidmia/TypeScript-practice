@@ -26,3 +26,9 @@ type User = {
     country: string;
   };
 };
+
+// type alias in function
+
+type Func = (num1: number, num2: number) => number;
+
+const odd: Func = (num1: number, num2: number) => num1 + num2;
