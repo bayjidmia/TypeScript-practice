@@ -25,3 +25,12 @@ const user2: IUser = {
   name: "bayjid",
   age: 23,
 };
+
+interface IAdmin extends IUser {
+  role: "admin" | "user";
+}
+const user3: IAdmin = {
+  name: "bayjid",
+  age: 23,
+  role: "admin",
+};

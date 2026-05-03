@@ -14,3 +14,6 @@ const {
 } = person;
 console.log(roll);
 console.log(name);
+
+// destructuring in array
+const arr = ["bayjid", "doe", "smith"];
