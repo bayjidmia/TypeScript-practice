@@ -14,3 +14,14 @@ type Isrole = {
 };
 
 type UserwithRole = User & Isrole;
+
+// interface : object type declaration :array,obj,function
+interface IUser {
+  name: string;
+  age: number;
+}
+
+const user2: IUser = {
+  name: "bayjid",
+  age: 23,
+};
